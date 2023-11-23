@@ -8,7 +8,7 @@
         render(){
             return (
                 <div class='card'>
-                    <img src={ this.product.image } />
+                    <img src={ this.product.image } loading="lazy" />
                     <div class='footer'>
                         <div class='title'>{ this.product.title }</div>
                     </div>

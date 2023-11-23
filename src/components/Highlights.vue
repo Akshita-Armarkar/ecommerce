@@ -19,7 +19,7 @@ export default {
                 {
                     this.highlights.map( item => (
                         <div class='highlight'>
-                            <img src={ item.image } alt='highlight' />
+                            <img src={ item.image } alt='highlight' loading="lazy"  />
                         </div>
                     ) )
                 }

@@ -2,10 +2,10 @@
     <div class="navbar">
         <div class="content">
             <div class="left">
-                <img :src=hamburger alt="" srcset="">
+                <img :src=hamburger alt="" srcset="" loading="lazy" >
             </div>
             <div class="centre">
-                <img src="" alt="LOGO HERE">
+                <img src="" alt="LOGO HERE" loading="lazy" >
             </div>
             <div class="right">
                 <img :src=search alt="" srcset="">

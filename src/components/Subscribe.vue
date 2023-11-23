@@ -21,7 +21,7 @@
                         {
                             benefits.map( ( { image, title } ) => (
                                 <div class='benefit'>
-                                    <img src={ image } alt='benefit'/>
+                                    <img src={ image } alt='benefit' loading="lazy" />
                                     <div class='title'>{ title }</div>
                                 </div>
                             ))
@@ -33,8 +33,8 @@
                             <input placeholder='Enter your email' />
                             <button>Subscribe</button>
                         </div>
-                        <img src={ shade1 } alt='shade' class='shade1' />
-                        <img src={ shade2 } alt='shade' class='shade2' />
+                        <img src={ shade1 } alt='shade' class='shade1' loading="lazy" />
+                        <img src={ shade2 } alt='shade' class='shade2' loading="lazy" />
                     </div>
                 </div>
             )

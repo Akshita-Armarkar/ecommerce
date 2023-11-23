@@ -11,7 +11,7 @@ export default {
     render(){
         return (
             <div class="banner" style={ { marginTop: this.addSpace ? '68px' : '0'} }>
-                <img src={ this.image } alt="" srcset="" />
+                <img src={ this.image } alt="" srcset="" loading="lazy" />
             </div>
         )
     }

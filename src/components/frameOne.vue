@@ -6,7 +6,7 @@
     </div>
     <div class="bottom">
     <div class="categFlex" v-for="category, index in catgFlex" :key="index">
-    <img :src=category alt="">
+    <img :src=category alt="" loading="lazy" >
     </div>
     </div>
 </template>

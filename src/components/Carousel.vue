@@ -31,7 +31,7 @@ export default {
                 {
                     this.categories.map( ( { img, title } ) => ( 
                         <div key={ title } class="category">
-                            <img src={ img } alt="category" />
+                            <img src={ img } alt="category" loading="lazy" />
                             <div class="title">{ title }</div>
                         </div>
                     ))

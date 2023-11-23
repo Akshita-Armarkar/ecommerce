@@ -8,7 +8,7 @@
         render(){
             return (
                 <div class='sale' style={ { background: this.sale.background } }>
-                    <img src={ this.sale.image } />
+                    <img src={ this.sale.image } loading="lazy" />
                     <div class='info'>Hurry Up!</div>
                     <div class='discount'>{ this.sale.discount }% OFF</div>
                     <div class='info'>Sale</div>

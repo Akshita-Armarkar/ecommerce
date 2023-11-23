@@ -16,13 +16,13 @@ export default {
                     <img src={ image } alt="product" />
                     <div class="actions">
                         <button>
-                            <img src={ cartIcon } />
+                            <img src={ cartIcon } loading="lazy"  />
                         </button>
                         <button>
-                            <img src={ wishlistIcon } />
+                            <img src={ wishlistIcon } loading="lazy" />
                         </button>
                         <button>
-                            <img src={ shareIcon } />
+                            <img src={ shareIcon } loading="lazy" />
                         </button>
                     </div>
                 </div>

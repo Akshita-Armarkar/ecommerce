@@ -3,7 +3,7 @@
         <div class="content">
             <p>Welcome to Our Store Hiscraves</p>
             <div class="right">
-                <img :src=phone alt="tel-phone">
+                <img :src=phone alt="tel-phone" loading="lazy" >
                 <span>Call Us: 1234567890</span>
             </div>
         </div>
